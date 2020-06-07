@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    color: red;
+    }
+    #container{
+        width: 1024px; border: 1px solid blue;
+        min-height: 600px;
+        margin: 0 auto;
+    }
+    #banner{background-color: yellow;height: 100px;}
+    #menu{background-color:white;}
+    #menu li{display: inline-block; width: 120px;background-color: aqua;text-align: center;padding: 5px;}
+    #menu li:hover{border-radius: 7px;font-weight: bolder;background-color: bisque;}
+    #left{width: 204px; float: left;min-height: 450px;background-color:white ;padding: 5px;}
+    #content{width: 800px;float:right;min-height: 450px;background-color: white;padding: 5px;}
+    #myfooter{text-align: center;clear: both;background-color:blue;}
+    #menu1{background-color :violet;height:10px;}
+    
+    @-webkit-keyframes my {
+        0% { color: #F8CD0A; } 
+        50% { color: #fff;  } 
+        100% { color: #F8CD0A;  } 
+    }
+    @-moz-keyframes my { 
+        0% { color: #F8CD0A;  } 
+        50% { color: #fff;  }
+        100% { color: #F8CD0A;  } 
+    }
+    @-o-keyframes my { 
+        0% { color: #F8CD0A; } 
+        50% { color: #fff; } 
+        100% { color: #F8CD0A;  } 
+    }
+    @keyframes my { 
+        0% { color: #F8CD0A;  } 
+        50% { color: #fff;  }
+        100% { color: #F8CD0A;  } 
+    } 
+    #test{
+        font-size:60px;
+        font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+    }
+#anh div >img {
+    width: 267px;
+    height: 225px;
+}
+.row1{
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    font-size: 35px;
+}

@@ -1,0 +1,32 @@
+
+.hanghoa{
+    border-radius: 5px; box-shadow: 0 0 5px silver;
+        position:relative; display: inline-block;
+        margin:25px 5px 5px 5px; padding: 15px 0px;
+        text-align:center; width:184px;height: 290px;
+}
+.hanghoa:hover {
+    box-shadow: 0 0 7px red;
+    -moz-box-shadow:0 0 8px #808451;
+    -webkit-box-shadow:0 0 15px #808451;
+}
+.hinh{
+    width: 184px; height: 250px;
+}
+.giaban{
+    position:absolute; left:8px; bottom:8px; font-weight:bold; color:red;
+
+}
+.iconnew{
+    position: absolute; top:0; right: 0; width: 30px;
+}
+.ten{
+    position:absolute;
+    left:0px; top:-20px; width: inherit;
+    text-align:center;
+}
+.giasoc{
+    width: 62px; height: 69px;
+    background-image: url(e:/HTML/Lab02_Resources/images/62x69.png);
+    position: absolute;left: 0px;top: 115px;
+}
